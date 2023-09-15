@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import StudentInfo from './StudentInfo';
 export default function Page() {
   return (
     <main>
-          <Link href="../week2">Week 2</Link>
+      <StudentInfo></StudentInfo>
+      <Link href="../week2">Week 2</Link>
     </main>
 
   );
